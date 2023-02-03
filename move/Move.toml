@@ -1,0 +1,11 @@
+[package]
+name = 'Qve1'
+version = '1.0.0'
+
+[addresses]
+Qve="0xf2bc453c0aeb6e26e27bf2f04b5e25ee3c02dd04fa56f2fc4b5e98fac6c86a24"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'

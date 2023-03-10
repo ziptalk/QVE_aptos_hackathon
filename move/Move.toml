@@ -1,11 +1,11 @@
 [package]
-name = 'Qve1'
+name = 'qve_defi_move_4'
 version = '1.0.0'
-
-[addresses]
-Qve="0xf2bc453c0aeb6e26e27bf2f04b5e25ee3c02dd04fa56f2fc4b5e98fac6c86a24"
-
 [dependencies.AptosFramework]
 git = 'https://github.com/aptos-labs/aptos-core.git'
 rev = 'main'
 subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+Qve = '55a00f1465592d715fe90ed7779954a5fa75c8fbdef0807641efc442770b01a8'
+Debug = '0x1'
